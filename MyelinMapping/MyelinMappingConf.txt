@@ -1,0 +1,13 @@
+# Define paths
+
+#echo "Setting up environment for Myelin Mapping"
+
+HOME_DIR="/home/share/Software"
+export MRICRON_DIR="/usr/local/mricron/"
+export EXEC_DIR="$HOME_DIR/MyelinMapping"
+export MEDI_TOOLBOX_PATH="$HOME_DIR//CornellQSM/MEDI_toolbox"
+export RESHARP_PATH="$HOME_DIR/CornellQSM/BackgroundRemoval/RESHARP"
+export MATLAB_FSL_PATH="/usr/local/fsl/etc/matlab"
+export HCP_DIR="${HOME_DIR}/HCP"
+export WORKBENCH_DIR="${HOME_DIR}/HCP/workbench/bin_linux64"
+export FREESURFER_HOME_HCP="$HOME_DIR/freesurferHCP"
