@@ -64,9 +64,7 @@ DO_LONG=$6
 
 SESSION_LIST="`echo $SESSIONS | sed 's/,/ /g'`"
 
-#if [ $DO_CROSS -eq 1 ]; then
-if [ ]; then
-
+if [ $DO_CROSS -eq 1 ]; then
 for SUBJECT in $SESSION_LIST;
 do
 echo $SUBJECT
